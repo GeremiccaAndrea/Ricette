@@ -1,0 +1,33 @@
+<html> 
+    <head> 
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/css.css') }}">
+    </head>
+
+    <body class = "immaginicentrate">
+        <h1> Cucina d'Italia </h1>
+        <img src="{{url_for('static', filename='images/cotoletta.jpg')}}" align="middle" />
+        <br> 
+        <br> 
+        <a href="/cotoletta">Cotoletta</a>
+        <br> 
+        <br> 
+        <img src="{{url_for('static', filename='images/pizza.jpg')}}" align="middle" />
+        <br> 
+        <br> 
+        <a href="/pizza">Pizza</a>
+        <br> 
+        <br> 
+        <img src="{{url_for('static', filename='images/lasagna.jpg')}}" align="middle" />
+        <br> 
+        <br> 
+        <a href="/lasagna">Lasagna</a>
+        <br> 
+        <br> 
+        <img src="{{url_for('static', filename='images/pastiera.jpg')}}" align="middle" />
+        <br> 
+        <br> 
+        <a href="/pastiera">Pastiera</a>
+        <br> 
+        <br> 
+    </body>
+</html>
